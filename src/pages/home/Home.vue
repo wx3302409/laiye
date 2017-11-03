@@ -1,21 +1,21 @@
-
 <template>
-  
-    <home-header></home-header>
-
+	<div>
+		<home-header/>
+		<home-swiper></home-swiper>
+	</div>
 </template>
 
 <script>
-import  HeaderComponent from "./Header"
-export default {
+	import HeaderComponent from "./Header"
+	import swiper from "./Swiper"
 	
- 	components:{
- 		"home-header": HeaderComponent
+	export default {
+		components: {
+			"home-header": HeaderComponent,
+			"home-swiper": swiper
+		}
 	}
-}
-
 </script>
 
 <style>
-	
 </style>
