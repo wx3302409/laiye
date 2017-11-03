@@ -13,6 +13,7 @@ export default {
  		"home-header": HeaderComponent
 	}
 }
+
 </script>
 
 <style>
