@@ -48,6 +48,7 @@
 	    overflow: hidden;
 	    height: 1.4rem;
 	    padding: .24rem;
+	    background-color: #FFFFFF;
 	} 
 	.hot_li_img {
 		position: absolute;
