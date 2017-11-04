@@ -19,7 +19,6 @@
 		created: function() {
             this.$http.get('/static/home.json').then(response => {
                 this.hotRecommendInfo = response.body.data.hotRecommendInfo;
-                console.log(this.hotRecommendInfo[1].listImg)
             }, response => {
                 console.log("get index data error")
             });

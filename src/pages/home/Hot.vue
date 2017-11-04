@@ -18,6 +18,9 @@
 					</div>
 				</li> 
 			</ul>
+			<div class="hot-modmore">
+				<a href="javascript:;">查看所有产品</a>
+			</div>
 		</div>
 	</div>
 </template>
@@ -97,5 +100,16 @@
 	.hot_price_text {
 		color: #9e9e9e;
     	font-size: .24rem;
+	}
+	.hot-modmore {
+	    height: .88rem;
+	    color: #00afc7;
+	    line-height: .88rem;
+	    text-align: center;
+	}
+	.hot-modmore a {
+		display: inline-block;
+		width:100%;
+		height: 100%;    
 	}
 </style>
