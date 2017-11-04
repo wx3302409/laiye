@@ -16,8 +16,7 @@
 	import ActivityComponent from "./Activity";
 	import Hot_recommendation from "./Hot";
 	import WeekendComponent from "./Weekend";
-	
-	
+		
 	export default {
 		created: function() {
             this.$http.get('/static/home.json').then(response => {
@@ -43,4 +42,6 @@
 </script>
 
 <style>
+
 </style> 
+
