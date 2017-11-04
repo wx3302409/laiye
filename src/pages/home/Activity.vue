@@ -29,7 +29,7 @@ export default {
 	}
 	.home-list li{
 		float:left;
-		width:49%;
+		width:49.8%;
 		height:0.98rem;
 		font-size:0.28rem;
 		line-height:0.98rem;
@@ -40,15 +40,19 @@ export default {
 		border-right:1px solid #f0f0f0;
 	
 	}
+	.home-list-pos-right{
+		float:right;
+	}
 	.home-list-pos-right >a{
 		color:black;
+		
 	}
 	.home-list-discount{
 		height:1.2rem;
 		margin-top:.4rem;
 	}
 	.home-list-discount-pos{
-		width:49%;
+		width:49.8%;
 		height:1.2rem;
 		float:left;
 		
@@ -59,6 +63,7 @@ export default {
 		background:white url(http://img1.qunarzz.com/piao/fusion/1710/a2/e395615b16fb1302.png) center center no-repeat;background-size:auto 100%;
 	}
 	.home-list-discount-posR{
+		float:right;
 		background:white url(http://img1.qunarzz.com/piao/fusion/1710/54/1685d2108b652302.png) center center no-repeat;background-size:auto 100%;
 	}
 	.home-list-discount-posA{

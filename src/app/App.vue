@@ -11,6 +11,9 @@ export default {
 </script>
 
 <style>
+	body {
+		background:#f5f5f5;
+	}
 	@import "./reset.css";
 	@import "./iconfont/iconfont.css";
 	@import "../../node_modules/swiper/dist/css/swiper.css"
