@@ -1,16 +1,19 @@
 
 <template>
-  
-    <home-header></home-header>
-
+  	<div>
+    	<home-header></home-header>
+    	<Mpswiper></Mpswiper>
+	</div>
 </template>
 
 <script>
-import  HeaderComponent from "./Header"
+import  HeaderComponent from "./Header";
+import 	Mpswiper from "./Mpswiper";
 export default {
 	
  	components:{
- 		"home-header": HeaderComponent
+ 		"home-header": HeaderComponent,
+ 		"Mpswiper":Mpswiper,
 	}
 }
 </script>
