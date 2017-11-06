@@ -1,7 +1,8 @@
 <template>
 
   	<header class="header">
-  		<div class="header-left iconfont icon-fanhui"></div> 
+  		<div class="header-left iconfont icon-fanhui">
+  		</div> 
   		
   		<div class="header-title">
   			<router-link to="/search">

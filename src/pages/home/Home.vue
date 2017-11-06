@@ -2,7 +2,7 @@
 	<div>
 		<home-header/>
 		<home-swiper></home-swiper>
-		<Mpswiper></Mpswiper>
+		<Mpswiper :firstGroup = "MpSwiperInfoGroup1" :secondGroup = "MpSwiperInfoGroup2"></Mpswiper>
 		<home-activity></home-activity>
 		<home-hot :hotsight="hotRecommendInfo"></home-hot>
 		<home-weekend></home-weekend>
@@ -21,13 +21,17 @@
 		created: function() {
             this.$http.get('/static/home.json').then(response => {
                 this.hotRecommendInfo = response.body.data.hotRecommendInfo;
+                this.MpSwiperInfoGroup1 = response.body.data.MpSwiperInfoGroup1;
+                this.MpSwiperInfoGroup2 = response.body.data.MpSwiperInfoGroup2;
             }, response => {
-                console.log("get index data error")
+                console.log("get index data error");
             });
         },
         data () {
             return {
-                hotRecommendInfo: []
+                hotRecommendInfo: [],
+                MpSwiperInfoGroup1:[],
+                MpSwiperInfoGroup2:[]
             }
         },
 		components: {

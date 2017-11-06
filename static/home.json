@@ -31,7 +31,103 @@
             "listInfoDes": "梦寻生态山水，情归大美聚龙",
             "price": "90",
             "link": "/detail"
-	    }]
-			}
+	    }],
 
+        "MpSwiperInfoGroup1":[
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                "keyword":"景点门票"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png",
+                "keyword":"动植物园"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/45/676b67d7078abc02.png",
+                "keyword":"故宫"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/a9/ffc620dbda9b9c02.png",
+                "keyword":"一日游"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/59/569d3c096e542502.png",
+                "keyword":"必游榜单"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/6d/ee9eb965690ce402.png",
+                "keyword":"秋色美景"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                "keyword":"游乐场"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1710/a6/83f636bd75ae6302.png",
+                "keyword":"泡温泉"
+            }
+        ],
+
+        "MpSwiperInfoGroup2":[
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/7f/b1ea3c8c7fb6db02.png",
+                "keyword":"城市观光"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/29/c16cd064d85d8502.png",
+                "keyword":"玻璃栈道"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/1c/a8a8d9023a814c02.png",
+                "keyword":"名胜古迹"
+            },
+
+            {
+                "img":"https://img1.qunarzz.com/piao/fusion/1602/f2/71eb19f77e3f21f7.png",
+                "keyword":"周边游"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/d0/e09575e66f4aa402.png",
+                "keyword":"自然风光"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/ea/8cb1dce519375d02.png",
+                "keyword":"古北水镇"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1707/34/9285073fde1eb702.png",
+                "keyword":"景点讲解"
+            },
+
+            {
+                "img":"http://img1.qunarzz.com/piao/fusion/1611/be/a70e61e1f57ee302.png",
+                "keyword":"全部"
+            }
+        ],
+
+        "hotScenerys":[
+            "宋城千古情","故宫","香山公园","天门狐仙","张家界大峡谷","鼓浪屿往返轮渡",
+            "鼓浪屿","颐和园","婺源","上海迪士尼乐园","北京欢乐谷","八达岭长城","雍和宫",
+            "恭王府","天坛公园","华山","玉龙雪山","西岭雪山滑雪场","乌镇西栅","慈城古镇",
+            "古北水镇","都江宴","泰山","圆明园","成都欢乐谷","武汉欢乐谷","沪沽湖",
+            "常州环球动漫嬉戏谷","深圳欢乐谷","凤凰山海港乐园"
+        ],
+
+        "hotCitys":[
+            "广东","三亚","上海","杭州","厦门","重庆","成都","天津","昆明","大连","桂林",
+            "桂林","清远","杭州","惠州","福州"
+        ]
+   }
 }

@@ -43,7 +43,7 @@
 			
 			<div class="hotcity">
 				<div class="hotcityBox" :style="{top:hotcityTop +'px' }" >
-					<span v-for="hotcity in hotcitys" class="hotSceneryItem" @click="itemOnClick" >{{hotcity}}</span>
+					<span v-for="hotcity in hotCitys" class="hotSceneryItem" @click="itemOnClick" >{{hotcity}}</span>
 				</div>
 			</div>
 		</div>
@@ -58,13 +58,15 @@
 <script>
 	
 export default {
-	
+
+	props:["hotCitys","hotScenerys"],
+
 	data(){
 		return {
 			hotSceneryTop:0,
-			hotScenerys:["宋城千古情","故宫","香山公园","天门狐仙","张家界大峡谷","鼓浪屿往返轮渡","鼓浪屿","颐和园","婺源","上海迪士尼乐园","北京欢乐谷","八达岭长城","雍和宫","恭王府","天坛公园","华山","玉龙雪山","西岭雪山滑雪场","乌镇西栅","慈城古镇","古北水镇","都江宴","泰山","圆明园","成都欢乐谷","武汉欢乐谷","沪沽湖","常州环球动漫嬉戏谷","深圳欢乐谷","凤凰山海港乐园"],
+			//hotScenerys:[],
 			hotcityTop:0,
-			hotcitys:["广东","三亚","上海","杭州","厦门","重庆","成都","天津","昆明","大连","桂林","桂林","清远","杭州","惠州","福州"],
+			//hotcitys:[],
 			histry:[],
 			display:false
 		}
@@ -175,12 +177,17 @@ export default {
 	.hotSceneryItem{
 		display: inline-block;
 		line-height: 25px;
-		font-size: 18px;
+		height: 25px;
+		font-size: 14px;
 		padding :0 10px;
 		border-right: 1px solid #aaa; 
 		margin-top: 10px;
 		margin-bottom: 10px;
-		color:#aaa;
+		color:#333;
+		max-width: 100px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.cityList{
@@ -236,6 +243,11 @@ export default {
 		display: inline-block;
 		line-height: 30px;
 		margin-left: 10px;
+
+		max-width: 100px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 

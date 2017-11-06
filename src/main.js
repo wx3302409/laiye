@@ -3,6 +3,7 @@ import App from './app/App'
 import router from './router'
 import VueResource from 'vue-resource'
 
+
 Vue.config.productionTip = false
 Vue.use(VueResource)
 
