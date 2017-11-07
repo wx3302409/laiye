@@ -1,10 +1,13 @@
 <template>
 
   	<header class="header">
-  		<div class="header-left iconfont icon-fanhui"></div> 
+  		<div class="header-left iconfont icon-fanhui">
+  		</div> 
   		
   		<div class="header-title">
-  			输入城市/景点/游玩主题
+  			<router-link to="/search">
+  				{{inputyMessage}}
+  			</router-link>
   		</div>
 
   		<div class="header-right">
@@ -19,9 +22,16 @@
 </template>
 
 <script>
-export default {
-  
-}
+ 
+	export default {
+  		data(){
+  			return {
+
+  				inputyMessage:"输入城市/景点/游玩主题",	
+  			}
+		}
+	}
+
 </script>
 
 <style>
@@ -40,7 +50,7 @@ export default {
 		font-size: .4rem;
 	}
 	
-	.header-title{
+	.header-title {
 		position: absolute;
 		left:.8rem;
 		right: 1.28rem;
