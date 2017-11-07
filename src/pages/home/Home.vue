@@ -1,10 +1,10 @@
 <template>
 	<div>
-		<home-header/>
+		<home-header></home-header>
 		<home-swiper></home-swiper>
 		<Mpswiper :firstGroup = "MpSwiperInfoGroup1" :secondGroup = "MpSwiperInfoGroup2"></Mpswiper>
 		<home-activity :ActivityInfos="this.$store.state.ActivityInfos"></home-activity>
-		<home-hot :hotsight="hotRecommendInfo"></home-hot>
+		<home-hot></home-hot>
 		<home-weekend :weekTrip="this.$store.state.WeekendInfos"></home-weekend>
 	</div>
 </template>
@@ -28,8 +28,10 @@
 			"home-hot": Hot_recommendation,
 			"home-weekend": WeekendComponent
 		},
-		
 		mounted() {
+			if (this.$store.getters.shouldGetData ) {
+				this.$store.dispatch("getSwiperInfo");
+			}
 			this.$store.dispatch("getActivityInfo");
 			
 		}

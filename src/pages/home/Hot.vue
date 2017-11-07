@@ -3,7 +3,7 @@
 		<h2 class="hot_h2">热销推荐</h2>
 		<div>
 			<ul>
-				<li class="hot_li" v-for="(esources, index) in hotsight" :key="index">
+				<li class="hot_li" v-for="(esources, index) in hotsight" :key="esources.id">
 					<div class="hot_li_img image-ready">
 						<img :src="esources.listImg"/>
 					</div>
@@ -26,17 +26,22 @@
 </template>
 
 <script>
+	import {mapState} from "vuex";
 	export default { 
 		data(){
 			return {
 				
 			}
 		},
-		props: ["hotsight"]
+		computed: mapState({ //将公共的数据做映射
+	      hotsight(state) {
+	        return state.home.hotRecommendInfo
+	      }
+	    })
 	}
 </script>
 
-<style>
+<style scoped>
 	.hot_h2 {
 		height: .8rem;
 	    padding-left: .26rem;
@@ -54,9 +59,10 @@
 		position: absolute;
 	    top: .24rem;
 	    left: .24rem;
-	    background-size: contain;
 	    width: 1.4rem;
 	    height: 1.4rem;
+	    background: url(../../assets/hot_list.jpg) no-repeat center ;
+	    background-size: 100% 100%;
 	}   
 	.image-ready img {
 	    opacity: 0;
@@ -80,6 +86,8 @@
 	    font-size: .3rem;
 	    white-space: nowrap;
 	    text-overflow: ellipsis;
+	    text-overflow:ellipsis;
+		white-space: nowrap;
 	}
 	.hot_li_desc {
 		overflow: hidden;
@@ -89,6 +97,8 @@
 	    color: #9e9e9e;
 	    white-space: nowrap;
 	    text-overflow: ellipsis;
+	    text-overflow:ellipsis;
+		white-space: nowrap;
 	}
 	.hot_li_price {
 		margin-left: 1.6rem;
