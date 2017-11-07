@@ -1,10 +1,10 @@
 <template>
 	<div>
-		<home-header/>
+		<home-header></home-header>
 		<home-swiper></home-swiper>
 		<Mpswiper></Mpswiper>
 		<home-activity></home-activity>
-		<home-hot :hotsight="hotRecommendInfo"></home-hot>
+		<home-hot></home-hot>
 		<home-weekend></home-weekend>
 	</div>
 </template>
@@ -16,20 +16,9 @@
 	import ActivityComponent from "./Activity";
 	import Hot_recommendation from "./Hot";
 	import WeekendComponent from "./Weekend";
+	
 		
-	export default {
-		created: function() {
-            this.$http.get('/static/home.json').then(response => {
-                this.hotRecommendInfo = response.body.data.hotRecommendInfo;
-            }, response => {
-                console.log("get index data error")
-            });
-        },
-        data () {
-            return {
-                hotRecommendInfo: []
-            }
-        },
+	export default {	
 		components: {
 			"home-header": HeaderComponent,
 			"home-swiper": swiper,
@@ -37,6 +26,12 @@
 			"home-activity": ActivityComponent,
 			"home-hot": Hot_recommendation,
 			"home-weekend": WeekendComponent
+		},
+		mounted() {
+			if (this.$store.getters.shouldGetData ) {
+				this.$store.dispatch("getSwiperInfo");
+			}
+			
 		}
 	}
 </script>
