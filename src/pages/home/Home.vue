@@ -3,9 +3,9 @@
 		<home-header/>
 		<home-swiper></home-swiper>
 		<Mpswiper :firstGroup = "MpSwiperInfoGroup1" :secondGroup = "MpSwiperInfoGroup2"></Mpswiper>
-		<home-activity></home-activity>
+		<home-activity :ActivityInfos="ActivityInfos"></home-activity>
 		<home-hot :hotsight="hotRecommendInfo"></home-hot>
-		<home-weekend></home-weekend>
+		<home-weekend :weekTrip="WeekendInfos"></home-weekend>
 	</div>
 </template>
 
@@ -23,6 +23,8 @@
                 this.hotRecommendInfo = response.body.data.hotRecommendInfo;
                 this.MpSwiperInfoGroup1 = response.body.data.MpSwiperInfoGroup1;
                 this.MpSwiperInfoGroup2 = response.body.data.MpSwiperInfoGroup2;
+                this.ActivityInfos = response.body.data.ActivityInfos;
+                this.WeekendInfos = response.body.data.WeekendInfos;
             }, response => {
                 console.log("get index data error");
             });
@@ -31,7 +33,9 @@
             return {
                 hotRecommendInfo: [],
                 MpSwiperInfoGroup1:[],
-                MpSwiperInfoGroup2:[]
+                MpSwiperInfoGroup2:[],
+                ActivityInfos: [],
+                WeekendInfos: [],
             }
         },
 		components: {
