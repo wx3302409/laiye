@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/home/Home'
 import Search from '@/pages/search/search'
+import onedayTrip from '@/pages/onedayTrip/onedayTrip'
 
 Vue.use(Router)
 

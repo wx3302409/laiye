@@ -3,9 +3,9 @@
 		<home-header/>
 		<home-swiper></home-swiper>
 		<Mpswiper :firstGroup = "MpSwiperInfoGroup1" :secondGroup = "MpSwiperInfoGroup2"></Mpswiper>
-		<home-activity :ActivityInfos="ActivityInfos"></home-activity>
+		<home-activity :ActivityInfos="this.$store.state.ActivityInfos"></home-activity>
 		<home-hot :hotsight="hotRecommendInfo"></home-hot>
-		<home-weekend :weekTrip="WeekendInfos"></home-weekend>
+		<home-weekend :weekTrip="this.$store.state.WeekendInfos"></home-weekend>
 	</div>
 </template>
 
@@ -16,28 +16,10 @@
 	import ActivityComponent from "./Activity";
 	import Hot_recommendation from "./Hot";
 	import WeekendComponent from "./Weekend";
+	import axios from "axios";
 		
 	export default {
-		created: function() {
-            this.$http.get('/static/home.json').then(response => {
-                this.hotRecommendInfo = response.body.data.hotRecommendInfo;
-                this.MpSwiperInfoGroup1 = response.body.data.MpSwiperInfoGroup1;
-                this.MpSwiperInfoGroup2 = response.body.data.MpSwiperInfoGroup2;
-                this.ActivityInfos = response.body.data.ActivityInfos;
-                this.WeekendInfos = response.body.data.WeekendInfos;
-            }, response => {
-                console.log("get index data error");
-            });
-        },
-        data () {
-            return {
-                hotRecommendInfo: [],
-                MpSwiperInfoGroup1:[],
-                MpSwiperInfoGroup2:[],
-                ActivityInfos: [],
-                WeekendInfos: [],
-            }
-        },
+		
 		components: {
 			"home-header": HeaderComponent,
 			"home-swiper": swiper,
@@ -45,6 +27,11 @@
 			"home-activity": ActivityComponent,
 			"home-hot": Hot_recommendation,
 			"home-weekend": WeekendComponent
+		},
+		
+		mounted() {
+			this.$store.dispatch("getActivityInfo");
+			
 		}
 	}
 </script>

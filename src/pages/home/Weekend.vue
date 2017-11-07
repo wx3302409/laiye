@@ -4,7 +4,7 @@
   		<h2 class="weekend-title">周末去哪</h2>
   		<ul class="home-weekend-ul">
   			
-			<li v-for="(info ,index) in weekTrip" :key="info.id" class="home-weekend-sights"> 
+			<li v-for="info in weekTrip" :key="info.id" class="home-weekend-sights"> 
 				<div class="home-weekend-ul-imgcontainer">
 					<img class="home-weekend-ul-img" :src="info.img" :alt="info.alt"/>
 				</div>
