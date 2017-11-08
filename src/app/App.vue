@@ -2,6 +2,7 @@
   <div id="app">
     <router-link to="/"></router-link>
     <router-link to="/Travel_search"></router-link>
+    <router-link to="/onedayTrip"></router-link>
     <router-view></router-view>
   </div>
 </template>

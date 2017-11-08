@@ -29,10 +29,9 @@
 			"home-weekend": WeekendComponent
 		},
 		mounted() {
-			if (!this.$store.state.ActivityInfos.length ) {
-				this.$store.dispatch("getSwiperInfo");
+			if (this.$store.getters.shouldGetData) {
+				this.$store.dispatch("getIndexInfo");
 			}
-			
 			
 		}
 	}

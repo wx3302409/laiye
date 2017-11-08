@@ -24,6 +24,12 @@ export default new Router({
       name: 'Search',
       component: Search
 
+    },
+    {
+      path: '/onedayTrip',
+      name: 'onedayTrip',
+      component: onedayTrip
+
     }
  	]
 })

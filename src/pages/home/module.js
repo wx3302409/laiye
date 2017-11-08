@@ -1,5 +1,5 @@
 import axios from "axios";
-export default{
+export default {
 	state: {  //存放公用的数据
 		swiperInfo: [],
 		hotRecommendInfo: [],
@@ -7,7 +7,7 @@ export default{
         WeekendInfos: [], 
 	},
 	actions: {	//异步操作获取数据后用 commit 调用 mutations
-		getSwiperInfo(context) {
+		getIndexInfo(context) {
 			axios.get('/static/home.json')
 				.then((response) => {
 					if (response.status === 200) {
@@ -31,9 +31,9 @@ export default{
 			   !state.hotRecommendInfo.length &&
 			   !state.ActivityInfos.length &&
 			   !state.WeekendInfos.length) {
-					return true
+					return true;
 				}else{
-					return false
+					return false;
 				}
 		}
 	}
