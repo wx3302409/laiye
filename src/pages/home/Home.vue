@@ -3,9 +3,9 @@
 		<home-header></home-header>
 		<home-swiper></home-swiper>
 		<Mpswiper :firstGroup = "MpSwiperInfoGroup1" :secondGroup = "MpSwiperInfoGroup2"></Mpswiper>
-		<home-activity :ActivityInfos="this.$store.state.ActivityInfos"></home-activity>
+		<home-activity></home-activity>
 		<home-hot></home-hot>
-		<home-weekend :weekTrip="this.$store.state.WeekendInfos"></home-weekend>
+		<home-weekend></home-weekend>
 	</div>
 </template>
 
@@ -29,10 +29,10 @@
 			"home-weekend": WeekendComponent
 		},
 		mounted() {
-			if (this.$store.getters.shouldGetData ) {
+			if (!this.$store.state.ActivityInfos.length ) {
 				this.$store.dispatch("getSwiperInfo");
 			}
-			this.$store.dispatch("getActivityInfo");
+			
 			
 		}
 	}

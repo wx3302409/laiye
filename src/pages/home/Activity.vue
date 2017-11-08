@@ -17,13 +17,18 @@
 </template>
 
 <script>
+import {mapState} from 'vuex'
 export default {
 	data() {
 		return {
 
 		}
 	},
-	props:["ActivityInfos"]
+	computed: mapState({
+		ActivityInfos(state) {
+			return state.home.ActivityInfos
+		}
+	})
   
 }
 </script>
@@ -61,7 +66,7 @@ export default {
 		margin-top:.4rem;
 	}
 	.activity-discount-pos{
-		width:4.12rem;
+		width:49.9%;
 		height:1.4rem;
 		float:left;
 		background:#fff;

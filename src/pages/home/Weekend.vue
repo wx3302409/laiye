@@ -4,13 +4,14 @@
   		<h2 class="weekend-title">周末去哪</h2>
   		<ul class="home-weekend-ul">
   			
-			<li v-for="info in weekTrip" :key="info.id" class="home-weekend-sights"> 
+			<li v-for="info in WeekendInfos" :key="info.id" class="home-weekend-sights"> 
 				<div class="home-weekend-ul-imgcontainer">
 					<img class="home-weekend-ul-img" :src="info.img" :alt="info.alt"/>
 				</div>
-				<p class="home-weekend-ul-ptitle">{{info.title}}</p>
-				<p class="home-weekend-ul-pinfo">{{info.Info}}</p>
-
+				<div class="home-weekend-info">
+					<p class="home-weekend-info-name">{{info.title}}</p>
+					<p class="home-weekend-info-disc">{{info.Info}}</p>
+				</div>
 			</li>
 		
   		</ul> 		
@@ -19,7 +20,7 @@
 </template>
 
 <script>
-
+import {mapState} from 'vuex'
 export default {
 	data(){
 		return{
@@ -27,7 +28,11 @@ export default {
 		}
 		 
 	},
-	props:["weekTrip"],
+	computed: mapState({
+		WeekendInfos(state) {
+			return state.home.WeekendInfos
+		}
+	})
 
 }
 
@@ -46,38 +51,52 @@ export default {
 }
 
 .home-weekend-sights{
-	background:#fff;
-}
+	position: relative;
+    margin-bottom: .1rem;
+    background: #fff;
+
+	
+	
 
 .home-weekend-ul-imgcontainer{
-	overflow: hidden;
-    height: 3.1rem;
-    width: 100%;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 37.4375%;
+    background: url(//s.qunarzz.com/piao_topic/image/common/default/640x266.jpg) no-repeat center #dcdcdc;
+    background-size: 100% 100%;
+}
+
+
 }
 .home-weekend-ul-img {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
 }
-.home-weekend-ul-ptitle {
-	width:2.5rem;
-	height: .8rem;
-    padding-left: .26rem;
-    line-height: .8rem; 
-    color: #212121;
-    overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
+
+.home-weekend-info{
+	position: relative;
+    padding: .14rem .2rem .2rem .2rem;
 }
-.home-weekend-ul-pinfo {
-	width:4.5rem;
-	font-size:.16rem;
-	padding-left: .26rem;
-	padding-bottom:.4rem;
-	color: #212121;
+.home-weekend-info-name {
 	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
+    padding-right: 1.4rem;
+    color: #212121;
+    font-size: .28rem;
+    line-height: .48rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
+
+.home-weekend-info-disc {
+	overflow: hidden;
+    padding-right: 1.4rem;
+    color: #616161;
+    font-size: .24rem;
+    line-height: .42rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 
 </style>
