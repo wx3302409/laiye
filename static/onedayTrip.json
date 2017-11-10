@@ -1,0 +1,383 @@
+{
+	"ret":true,
+	"data":{
+		"ChooseList": [
+			{
+				"id": 1,
+				"title": "八达岭长城"
+			},
+			{
+				"id": 2,
+				"title": "古北水镇"
+			},
+			{
+				"id": 3,
+				"title": "司马台长城"
+			},
+			{
+				"id": 4,
+				"title": "颐和园"
+			},
+			{
+				"id": 5,
+				"title": "天安门广场"
+			},
+			{
+				"id": 6,
+				"title": "古北水镇天然温泉"
+			},
+			{
+				"id": 7,
+				"title": "恭王府"
+			},
+			{
+				"id": 8,
+				"title": "什刹海"
+			},
+			{
+				"id": 9,
+				"title": "古北口文化文物旅游区"
+			},
+			{
+				"id": 10,
+				"title": "天坛公园"
+			},
+			{
+				"id": 11,
+				"title": "明十三陵"
+			},
+			{
+				"id": 12,
+				"title": "慕田峪长城"
+			},
+			{
+				"id": 13,
+				"title": "北京动物园"
+			},
+			{
+				"id": 14,
+				"title": "北京杜莎夫人蜡像馆"
+			},
+			{
+				"id": 15,
+				"title": "北京杜莎夫人蜡像馆"
+			},
+			{
+				"id": 16,
+				"title": "八达岭长城缆车"
+			},
+
+			{
+				"id": 17,
+				"title": "北京海洋馆"
+			},
+
+			{
+				"id": 18,
+				"title": "恭王府大戏楼"
+			},
+
+			{
+				"id": 19,
+				"title": "泰山皮影戏"
+			},
+
+			{
+				"id": 20,
+				"title": "京东石林峡"
+			},
+
+			{
+				"id": 21,
+				"title": "前门大街"
+			},
+
+			{
+				"id": 22,
+				"title": "圆明园"
+			},
+
+			{
+				"id": 23,
+				"title": "坡峰岭"
+			},
+
+			{
+				"id": 24,
+				"title": "坡峰岭"
+			},
+
+			{
+				"id": 25,
+				"title": "天安门城楼"
+			},
+
+			{
+				"id": 26,
+				"title": "奥林匹克公园"
+			},
+
+			{
+				"id": 27,
+				"title": "张裕爱斐堡"
+			},
+
+			{
+				"id": 28,
+				"title": "毛主席纪念堂"
+			},
+
+			{
+				"id": 29,
+				"title": "八达岭野生动物园"
+			},
+
+			{
+				"id": 30,
+				"title": "北京大学"
+			},
+
+			{
+				"id": 31,
+				"title": "北海公园"
+			},
+
+			{
+				"id": 32,
+				"title": "南山滑雪场"
+			}
+		],
+		"TripListInfo":[
+			{
+			
+				"id":33,
+				"link": "//touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=355112&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEwMjUxMjMyJTI2dHlwZSUzRDElMjZpZHglM0QxJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD&cat=from_area%3Dts_type_nav%26from_index%3D3%26from_value%3D%25E4%25B8%2580%25E6%2597%25A5%25E6%25B8%25B8%26dist_city%3D%25E5%258C%2597%25E4%25BA%25AC",
+				"imgUrl":"http://img1.qunarzz.com/p/tts2/1707/43/8250a273d1946502.jpg_110x110_532f0563.jpg",
+				"title":"[北京出发]天安门＋故宫【赠送珍宝馆】＋八达岭长城＋鸟巢·水立方一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥208",
+				"sale":"已售出861"
+			},
+			{
+			
+				"id":34,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=1626032&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzNjI4OTcxJTI2dHlwZSUzRDElMjZpZHglM0QyJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts3/1708/e0/9072ffc0ef322302.jpg_110x110_52fb9421.jpg",
+				"title":"【7-12点天天发】八达岭长城+往返直通车+门票，自由可选！",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":35,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=1555187&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMjAzNDE3JTI2dHlwZSUzRDElMjZpZHglM0Q0JTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts3/1708/e0/9072ffc0ef322302.jpg_110x110_52fb9421.jpg",
+				"title":"【5大景点】广场+故宫+八达岭长城+鸟巢水立方，北京一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥118",
+				"sale":"已售出3166"
+			},
+			{
+			
+				"id":36,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+				"title":"【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":37,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=369072&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEwMjc1ODQwJTI2dHlwZSUzRDElMjZpZHglM0Q1JTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts1/1505/c9/4cdfc7d9932008.jpg_110x110_16d9c8ff.jpg",
+				"title":"北京八达岭长城＋庆丰包子铺+恭王府+鸟巢.水立方纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥198",
+				"sale":"已售出332"
+			},
+
+			{
+			
+				"id":38,
+				"link":"https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=1555093&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEyODcxNjExJTI2dHlwZSUzRDElMjZpZHglM0Q2JTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts2/1706/b9/68688c37bace6c02.jpg_110x110_32e4422c.jpg",
+				"title":"【10点天天发】北京八达岭长城+鸟巢水立方纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥79",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":39,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+				"title":"【赠杜莎门票】北京八达岭长城+十三陵定陵鸟巢，含地宫门票",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥158",
+				"sale":"已售出7521"
+			},
+			{
+			
+				"id":40,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts8/1707/7a/c6e435c7b0fa5802.jpg_110x110_78e3913f.jpg",
+				"title":"【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":41,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+				"title":"【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":42,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+				"title":"【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":43,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+				"title":"【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":44,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+				"title":"【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":45,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+				"title":"【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":46,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+				"title":"【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":47,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+				"title":"【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":48,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+				"title":"【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":49,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+				"title":"【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			},
+
+			{
+			
+				"id":50,
+				"link": "https://touch.piao.qunar.com/touch/product/spu/onedaytour.htm?spuId=374779&st=a3clM0QlRTQlQjglODAlRTYlOTclQTUlRTYlQjglQjglMjZpZCUzRDEzMTc1MTEzJTI2dHlwZSUzRDElMjZpZHglM0QzJTI2cXQlM0R0YWclMjZhcGslM0QwJTI2c2MlM0RPTkVEQVlfVE9VUiUyNmFidHJhY2UlM0Rid2QlNDAlRTYlOUMlQUMlRTUlOUMlQjAlMjZ1ciUzRCVFNSU4QyU5NyVFNCVCQSVBQyUyNmxyJTNEJUU1JThDJTk3JUU0JUJBJUFD",
+				"imgUrl":"http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+				"title":"【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+				"start":"北京出发",
+				"fee":"无自费",
+				"shop":"无购物",
+				"price":"￥45",
+				"sale":"已售出7521"
+			}
+		]
+	}
+}
