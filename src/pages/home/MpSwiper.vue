@@ -6,12 +6,12 @@
       <div class = "mp-swiper-box" >
 
         <div class="mp-item" v-for = "info in firstGroup">
-          <a href="#">
+          <router-link to="/onedayTrip">
             <div class="mp-img">
               <img :src = "info.img" />
             </div>
             <div class="keywords">{{info.keyword}}</div>
-          </a>
+          </router-link>
         </div>
 
       </div>
@@ -68,6 +68,7 @@
     computed: mapState({
 
         firstGroup(state){
+
           return state.home.MpSwiperInfoGroup1;
         },
 

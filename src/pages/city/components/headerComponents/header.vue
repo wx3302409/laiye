@@ -1,9 +1,9 @@
 <template>
   <div class="header">
     <div class="box">
-
+      <router-link to="/">
       <a class="rollback iconfont icon-fanhui" href="#"></a>
-      
+      </router-link>
       <div class="headerRight">
         <div class="selectedBox">
            <span class="selectedBtn" :class="DomBtnstate" @click="onclick">国内</span>

@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-link to="/"></router-link>
+    <router-link to="/Travel_search"></router-link>
+    <router-link to="/onedayTrip"></router-link>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -17,5 +20,4 @@ export default {
 	@import "./reset.css";
 	@import "./iconfont/iconfont.css";
 	@import "../../node_modules/swiper/dist/css/swiper.css";
-	@import "../../node_modules/swiper/dist/css/swiper.css"
 </style>

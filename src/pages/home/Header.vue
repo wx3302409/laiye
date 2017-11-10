@@ -1,9 +1,10 @@
 <template>
 
   	<header class="header">
-  		<div class="header-left iconfont icon-fanhui">
-  		</div> 
-  		
+  		<router-link to="/">
+	  		<div class="header-left iconfont icon-fanhui">
+	  		</div> 
+  		</router-link>
   		<div class="header-title">
   			<router-link to="/search">
   				{{inputyMessage}}
@@ -13,7 +14,9 @@
   		<div class="header-right">
   			<div class = "header-city-wrapper">
   				<span class=" header-city">
-  					北京
+  					<router-link to="/city">
+  						北京
+  					</router-link>
   				</span>
 			</div>		
   		</div>

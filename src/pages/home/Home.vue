@@ -1,36 +1,26 @@
 <template>
 	<div>
-		<home-header/>
+		<home-header></home-header>
 		<home-swiper></home-swiper>
 		<Mpswiper ></Mpswiper>
 		<home-activity></home-activity>
-		<home-hot :hotsight="hotRecommendInfo"></home-hot>
+		<home-hot></home-hot>
 		<home-weekend></home-weekend>
 	</div>
 </template>
 
 <script>
+
 	import HeaderComponent from "./Header";
 	import swiper from "./Swiper";
 	import 	Mpswiper from "./Mpswiper";
 	import ActivityComponent from "./Activity";
 	import Hot_recommendation from "./Hot";
 	import WeekendComponent from "./Weekend";
-	
 
+		
 	export default {
 		
-        mounted(){
-        	if(this.$store.getters.shouleGetData)
-			this.$store.dispatch("getMpSwiperInfo");
-		},
-
-        data () {
-            return {
-                hotRecommendInfo: [],
-            }
-        },
-
 		components: {
 			"home-header": HeaderComponent,
 			"home-swiper": swiper,
@@ -38,7 +28,13 @@
 			"home-activity": ActivityComponent,
 			"home-hot": Hot_recommendation,
 			"home-weekend": WeekendComponent
-		}		
+		},		
+
+		mounted() {
+			if (this.$store.getters.shouldGetData) {
+				this.$store.dispatch("getIndexInfo");
+			}
+		}
 	}
 </script>
 

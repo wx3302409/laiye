@@ -1,17 +1,19 @@
+import Vuex from 'vuex'
 import Vue from 'vue'
-import Vuex from "vuex"
-import VueResource from 'vue-resource'
-import home from '../pages/home/module.js'
+import home from "../pages/home/module.js";
 import city from '../pages/city/module.js'
+import oneDayTrip from "../pages/onedayTrip/module.js";
+import Travel_search from "../pages/Travel_search/module.js";
 
 Vue.use(Vuex);
 
-
 export default new Vuex.Store({
-
-	modules:{
-		home:home,
+	modules: {
+		home: home,
+		oneDayTrip:oneDayTrip,
+		//Travel_search: Travel_search,
 		city:city
 	}
-
 })
+	
+

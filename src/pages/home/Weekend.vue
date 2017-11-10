@@ -1,101 +1,102 @@
 <template>
 
-  	<div class="home-activity">
-  		<h2>周末去哪</h2>
-  		<ul class="home-activity-ul">
-  		<header_uan>
-			<li v-for=" info in infos"> 
-				<img :src="info.img"/>
-				<p class="home-activity-ul-ptitle">{{info.title}}</p>
-				<p class="home-activity-ul-pinfo">{{info.Info}}</p>
-
+  	<div class="home-weekend">
+  		<h2 class="weekend-title">周末去哪</h2>
+  		<ul class="home-weekend-ul">
+  			
+			<li v-for="info in WeekendInfos" :key="info.id" class="home-weekend-sights"> 
+				<div class="home-weekend-ul-imgcontainer">
+					<img class="home-weekend-ul-img" :src="info.img" :alt="info.alt"/>
+				</div>
+				<div class="home-weekend-info">
+					<p class="home-weekend-info-name">{{info.title}}</p>
+					<p class="home-weekend-info-disc">{{info.Info}}</p>
+				</div>
 			</li>
-		</header_uan>
+		
   		</ul> 		
   	</div>
   
 </template>
 
 <script>
-	
-	var header= {
-		template: `
-			<div>
-				<slot></slot>
-			</div>
-		`
-	}
+import {mapState} from 'vuex'
 export default {
 	data(){
 		return{
 
-		infos:[
-			{
-				"img": "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
-				"title": "北京温泉排行榜",
-				"Info":"细数北京温泉，温暖你的冬天"
-			},
-
-			{
-				"img": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-				"title": "寻找北京的皇城范儿",
-				"Info":"数百年的宫廷庙宇，至今依旧威严霸气"
-			},
-			{
-				"img": "http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg",
-				"title": "北京必游",
-				"Info":"来北京必去的景点非这些地方莫属"
-			},
-			{
-				"img": "http://img1.qunarzz.com/sight/source/1509/81/0412da9c4db66a.jpg_r_640x214_8e23871e.jpg",
-				"title": "登高望远秋色佳",
-				"Info":"山顶满眼彩色，此情此景醉了"
-			},
-			{
-				"img": "http://img1.qunarzz.com/sight/source/1509/28/1bb74b851279e6.jpg_r_640x214_64ebf0ee.jpg",
-				"title": "秋高气爽去礼佛",
-				"Info":"秋风伴着美妙经声，品尝秋的另一番滋味"
-			}]
 		}
 		 
 	},
-	components: {
-		"header_uan": header
-	}
+	computed: mapState({
+		WeekendInfos(state) {
+			return state.home.WeekendInfos
+		}
+	})
 
-	// props:["scenicInfos"],
-	// components:{
-	// 	"weekend-scenicInfos": scenicInfos
-	// }
 }
 
 </script>
 
-<style>
-.home-activity h2 {
+<style scoped>
+.home-weekend .weekend-title {
+	width:2.5rem;
 	height: .8rem;
     padding-left: .26rem;
     line-height: .8rem;
     color: #212121;
-}
-.home-activity-ul li {
-	background:#fff;
-}
-.home-activity-ul li img {
-	width:100%;
+    overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
-.home-activity-ul li .home-activity-ul-ptitle {
-	height: .8rem;
-    padding-left: .26rem;
-    line-height: .8rem; 
+.home-weekend-sights{
+	position: relative;
+    margin-bottom: .1rem;
+    background: #fff;
+
+	
+	
+
+.home-weekend-ul-imgcontainer{
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 37.4375%;
+    background: url(//s.qunarzz.com/piao_topic/image/common/default/640x266.jpg) no-repeat center #dcdcdc;
+    background-size: 100% 100%;
+}
+
+
+}
+.home-weekend-ul-img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.home-weekend-info{
+	position: relative;
+    padding: .14rem .2rem .2rem .2rem;
+}
+.home-weekend-info-name {
+	overflow: hidden;
+    padding-right: 1.4rem;
     color: #212121;
+    font-size: .28rem;
+    line-height: .48rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
-.home-activity-ul li .home-activity-ul-pinfo {
-	font-size:.14rem;
-	padding-left: .26rem;
-	padding-bottom:.4rem;
-	color: #212121;
+
+.home-weekend-info-disc {
+	overflow: hidden;
+    padding-right: 1.4rem;
+    color: #616161;
+    font-size: .24rem;
+    line-height: .42rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
+
 
 </style>
