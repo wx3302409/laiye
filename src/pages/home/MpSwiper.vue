@@ -43,10 +43,11 @@
 <script>
 
   import { swiper, swiperSlide } from 'vue-awesome-swiper'
-
+  import {mapState} from "vuex"
+  
   export default {
 
-    props:["firstGroup","secondGroup"],
+    //props:["firstGroup","secondGroup"],
 
     data() {
       return {
@@ -62,7 +63,31 @@
     components:{
       swiper,
       swiperSlide
-    }
+    },
+
+    computed: mapState({
+
+        firstGroup(state){
+          return state.home.MpSwiperInfoGroup1;
+        },
+
+        secondGroup(state){
+          return state.home.MpSwiperInfoGroup2;
+        }
+
+    })
+
+    // computed:{
+      
+    //   firstGroup(){
+    //     return this.$store.state.home.MpSwiperInfoGroup1;
+    //   },
+
+    //   secondGroup(){
+    //     return this.$store.state.home.MpSwiperInfoGroup2;
+    //   }
+
+    // }
 
   }
 
