@@ -10,7 +10,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="mp-menu"
+		<div class="mp-menu">
 			<div class="mp-menu-left" v-show="show">
 				<div id="wrapper">
 					<div id="scroller">
@@ -28,8 +28,11 @@
 	
 			</div>
 		</div>
-		
+		<div class="occlusion" v-show="occlusion">
+			
+		</div>
 	</div>
+	
 </template>
 
 <script>
@@ -41,7 +44,8 @@
 				selected: null,
 				aaaa:null,
 				bbbb:null,
-				show:false
+				show:false,
+				occlusion:false
           	 }
 		},
 		methods: {
@@ -54,6 +58,7 @@
 			},
 			onclick2:function(){
 				this.show=!this.show
+				this.occlusion=!this.occlusion
 				if(this.bbbb==="mp-select-opened"){
 					this.bbbb ="";
 				}else{
@@ -195,6 +200,7 @@
 		left: 0;
    		background: white;
    		overflow: hidden;
+   		z-index: 1001;
 	}
 	.mp-menu-left {
 		float: left;
@@ -226,6 +232,13 @@
 	    height: .3rem;
 	    vertical-align: middle;
 	    margin-right: .1rem;
+	}
+	.occlusion {
+		width: 100%;
+		height: 100%;
+		background: #000000;
+		position: absolute;
+		opacity: 0.5;
 	}
 </style>
 
